@@ -120,3 +120,19 @@ Before rewriting, scan the input for these common tells:
 ### Output Format
 Return the rewritten text directly. If the input was long (multiple paragraphs or sections), briefly note 2-3 specific changes made (e.g., "cut the 'Furthermore' transitions, varied sentence length, simplified a few word choices") so the user can see what changed without re-reading line by line.
 ```
+# Well-Engineered Prompt
+
+1)Role:
+Assume you are a professional certified fitness coach and nutrition expert.
+
+2)Task:
+Create a complete weekly diet plan for me.
+
+3)Context:
+My goal is to keep my body fit, maintain good health, improve energy levels, and support overall physical fitness.
+
+4)Constraints:
+Include all essential nutrients required by the human body. Do not assume any personal information. Ask me questions first if any required details are missing.
+
+5)Output Format:
+Provide the final diet plan in exactly 7 points, one for each day.
