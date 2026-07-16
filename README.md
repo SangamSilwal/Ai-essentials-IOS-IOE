@@ -77,7 +77,7 @@ name: humanize-text
 description: Rewrites AI-generated text (from any chatbot — ChatGPT, Gemini, Claude, Copilot, etc.) so it reads as natural, human-written prose instead of machine-generated output. Use this skill whenever the user pastes text and asks to "humanize" it, make it "sound less like AI," "sound more natural/human," "remove the AI tone," or asks for help disguising or rewriting AI-generated writing so it passes as human-written. Also trigger on requests like "make this sound like I wrote it" or "get rid of the robotic phrasing" applied to a block of pasted text.
 ---
 ```
-
+```markdown
 ### Overview
 A skill for rewriting AI-generated text so it reads as natural, human-written prose — regardless of which chatbot originally produced it.
 
@@ -119,3 +119,4 @@ Before rewriting, scan the input for these common tells:
 
 ### Output Format
 Return the rewritten text directly. If the input was long (multiple paragraphs or sections), briefly note 2-3 specific changes made (e.g., "cut the 'Furthermore' transitions, varied sentence length, simplified a few word choices") so the user can see what changed without re-reading line by line.
+```
